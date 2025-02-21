@@ -33,6 +33,7 @@ int searchPatientID(int patientID);//mohamed
 void UserMood();//Team
 void reserveSlot();//Eslam&omar
 void editPatientRecord();//Mohamed
+void deletepatientdata(int PatientLocation);//amir
 void cancelReservation();//Amir
 void viewPatientRecord();//rawda
 void viewReservations();//rawda
