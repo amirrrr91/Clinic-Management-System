@@ -363,17 +363,6 @@ void viewReservations()
 //Rawda
 }
 //==Amir===========================================================check patient researve ====================================================
-int searchPatientID(int ID)
-{
-  for (int i = 0; i < MAX_PATIENTS; i++) 
-  {
-      if ((patients[i].patientID) ==ID) 
-      {
-        return (i);
-      }
-  }
-    return (-1);
-}
 
 int checkpatientresearve(int patientID) {
 
@@ -397,7 +386,7 @@ int checkpatientresearve(int patientID) {
 
   else
   {
-    printf("User not found");
+    printf("User not found . \n");
     return 0;
   }
 
